@@ -31,25 +31,3 @@ ani = FuncAnimation(plt.gcf(), animate, interval=1)
 
 plt.tight_layout()
 plt.show()
-
-# fig, ax=plt.subplots()
-# ax.set_xlim(0,105)
-# ax.set_ylim(0,1000)
-# line, = ax.plot(0,0)
-#
-# def animation_frame(i):
-#     X.append(i, *10)
-#     time.append(i)
-#
-#     line.set_xdata(X)
-#     line.set_ydata(time)
-#     return line,
-#
-# animation = FuncAnimation(fig, func = animation_frame, frames= , interval=10)
-# plt.show()
-
-
-# plt.plot(X)
-# plt.xlabel('Time')
-# plt.ylabel('Value')
-# plt.show()
