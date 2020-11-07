@@ -6,12 +6,12 @@ import matplotlib.animation as FuncAnimation
 import keyboard
 
 def main():
-    port = 'COM3'
-    baudrate = 9600
+    port = 'COM3'#COM Port
+    baudrate = 9600 # Baudrate
     s = serial.Serial(port, baudrate)
     data = []
     values = []
-    filepath = (r"C:\Users\ngaij\Desktop\Project Swallow Software\Python\Accelerometer\test.csv")
+    filepath = (r"local pathway")
     matrix = []
     sensors = 6  # number of sensors
     while True:
