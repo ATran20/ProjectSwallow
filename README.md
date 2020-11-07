@@ -14,7 +14,7 @@ Code to allow for communication of multiple devices and the post processing of a
 Used to poll for all sensor data, depending on the sensor that is presented to the Arduino MKR Zero.
 
 # Python code
-## Read.py 
+## main.py 
 Used to read from serial and log it to a csv
-## Plot.py
+## plot.py
 Used to live plot the inputs into the csv file
